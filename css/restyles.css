@@ -1,0 +1,76 @@
+.header
+{
+    background-image: url('../images/header_image.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+}
+.logo {
+    top: 10px;
+    position: absolute;
+    height: 250px;
+    width: auto;
+    margin-left: 10px;
+    z-index: 1100;
+
+}
+h1
+{
+    margin-left: 250px;
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    color: gold;
+    font-size: 60px;
+}
+.accordion {
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.card
+{
+    width: 25rem;
+    margin-top: 15px;
+    align-items: center;
+}
+h5
+{
+    font-family: "Play", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: slategrey;
+}
+.accordion-button
+{
+    font-family: "Play", serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: slategrey;
+    background-color: #DCDCDC;
+}
+footer
+{
+    font-family: "Play", serif;
+    font-size: 20px;
+    text-align: left;
+    align-items: flex-end;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #505050;
+    z-index: 1200;
+}
+.net_logo
+{
+    width: 250px;
+    height: auto;
+    position: fixed;
+    right: 10px;
+    bottom: 31px;
+}
